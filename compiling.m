@@ -1,3 +1,10 @@
+if(~exist('HBPMex','dir'))
+    !git clone https://github.com/zzhang1987/HungarianBPMex HBPMex
+else
+    cd HBPMex
+    !git pull 
+    cd ..
+end
 if(~exist('fgm', 'dir'))
     disp Please Download FGM package from http://www.f-zhou.com/gm_code.html
     return
