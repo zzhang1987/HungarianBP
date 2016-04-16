@@ -10,9 +10,9 @@ If you find HungarianBP useful in your research, please consider citing:
 
     @inproceedings{Zhang:2016:CVPR,
         author = {Zhang, Zhen and Shi, Qinfeng and McAuley, Julian and Wei, Wei and Zhang, Yanning and Hengel, Anton},
-	booktitle = {CVPR},
-	title = {Pairwise Matching through {Max-Weight} Bipartite Belief Propagation},
-	year = {2016}, 
+        booktitle = {CVPR},
+        title = {Pairwise Matching through {Max-Weight} Bipartite Belief Propagation},
+        year = {2016}, 
     }
 
 ### Usage
