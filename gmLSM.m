@@ -1,4 +1,17 @@
 function assign = gmLSM(K, Ct, asgT, options)
+    %
+    %Graph Matching via Local Sparse Model
+    %Reference: @paper{AAAI159386,
+    % 	author = {Bo Jiang and Jin Tang and Chris Ding and Bin Luo},
+    % 	title = {A Local Sparse Model for Matching Problem},
+    % 	conference = {AAAI Conference on Artificial Intelligence},
+    % 	year = {2015},
+    % 	keywords = {feature matching; sparse model; match selection},
+    % 	abstract = {Feature matching problem that incorporates pairwise constraints is usually formulated as a quadratic assignment problem (QAP). Since it is NP-hard, relaxation models are required. In this paper, we first formulate the QAP from the match selection point of view; and then propose a local sparse model for matching problem. Our local sparse matching (LSM) method has the following advantages: (1) It is parameter-free; (2) It generates a local sparse solution which is closer to a discrete matrix than most other continuous relaxation methods for the matching problem. (3) The one-to-one matching constraints are better maintained in LSM solution. Promising experimental results show the effectiveness of the Proposed LSM method.},
+    % 
+    % 	url = {http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9386}
+    % }
+    %
     [NofNodes, ~] = size(Ct);
     
     x = ones(NofNodes^2, 1) / NofNodes;
