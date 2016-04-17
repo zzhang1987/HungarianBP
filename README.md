@@ -22,9 +22,9 @@ If you find HungarianBP useful in your research, please consider citing:
 
 0. **Configuring HungarianBP**
  0. Downloading HungarianBP via 
-	git clone https://github.com/zzhang1987/HungarianBP
+	  git clone https://github.com/zzhang1987/HungarianBP
  1. Fetching the mex code via 
-	git submodule init; git submodule update --remote
+	  git submodule init; git submodule update --remote
  2. Run compiling.m.
 
 ### Feedback
