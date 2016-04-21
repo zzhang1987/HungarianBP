@@ -9,6 +9,8 @@ if(~exist('Cars_and_Motorbikes_Graph_Matching_Datasets_and_Code','dir'))
 end
 cd fgm
 make
-cd ../HBPMex 
-!make
+cd ..
+cd HBPMex
+mex -v -O -output HungarianBPMex.mexa64 HungarianBPMex.cpp BPSolver.cpp DualSolver.cpp PiSBPSolver.cpp PSBPSolver.cpp HungarianBP.cpp
+mex -v -O -output CluComputeObjMex.mexa64 CluComputeObjMex.cpp
 cd ..
