@@ -40,6 +40,9 @@ If you find HungarianBP useful in your research, please consider citing:
 		cd HungarianBP
 		compiling
 	```
+
+### Remarks
+Precompiled mex files for linux x64 are included. For other platforms, you can use any compilier that supports matlab and c++11 to compiling the mex files.
 	
 ### Feedback
 
