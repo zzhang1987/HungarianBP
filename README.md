@@ -27,6 +27,7 @@ If you find HungarianBP useful in your research, please consider citing:
  ```
  1. Fetching the mex code via 
  ```
+		cd HungarianBP 
         git submodule init
 		git submodule update --remote
  ```
