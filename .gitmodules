@@ -1,4 +1,4 @@
 [submodule "HBPMex"]
 	path = HBPMex
-	url = git@github.com:zzhang1987/HungarianBPMex.git
+	url = https://github.com/zzhang1987/HungarianBPMex
 	branch = master
