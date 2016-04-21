@@ -42,7 +42,7 @@ If you find HungarianBP useful in your research, please consider citing:
 	```
 
 ### Remarks
-Precompiled mex files for linux x64 are included. For other platforms, you can use any compilier that supports matlab and c++11 to compiling the mex files.
+Precompiled mex files for linux x64 are included. For other platforms, you can use any compilier that supports matlab and c++11 to compile the mex files.
 	
 ### Feedback
 
