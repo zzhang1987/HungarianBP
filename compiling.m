@@ -10,7 +10,7 @@ end
 cd fgm
 make
 cd ..
-cd HBPMex
-mex -v -O -output HungarianBPMex.mexa64 HungarianBPMex.cpp BPSolver.cpp DualSolver.cpp PiSBPSolver.cpp PSBPSolver.cpp HungarianBP.cpp
-mex -v -O -output CluComputeObjMex.mexa64 CluComputeObjMex.cpp
-cd ..
+% cd HBPMex
+% mex -v -O -output HungarianBPMex.mexa64 HungarianBPMex.cpp BPSolver.cpp DualSolver.cpp PiSBPSolver.cpp PSBPSolver.cpp HungarianBP.cpp
+% mex -v -O -output CluComputeObjMex.mexa64 CluComputeObjMex.cpp
+% cd ..
