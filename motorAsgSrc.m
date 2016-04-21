@@ -18,7 +18,7 @@ function wsSrc = motorAsgSrc(pFs, nOus)
 % save option
 %prex = cellStr(tag, pFs, nIns);
 Fname = sprintf('%s_%d.mat', ...
-    './Cars_and_Motorbikes_Dataset_and_Code/Data_for_Cars_and_Motorbikes/Data_Pairs_Motorbikes/pair', pFs);
+    './Cars_and_Motorbikes_Graph_Matching_Datasets_and_Code/Data_for_Cars_and_Motorbikes/Data_Pairs_Motorbikes/pair', pFs);
 prex = sprintf('Motor_pair_%d', pFs);
 load(Fname);
 nIn = nF1;
