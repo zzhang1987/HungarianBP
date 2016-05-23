@@ -41,7 +41,7 @@ If you find HungarianBP useful in your research, please consider citing:
 			cd HungarianBP
 			compiling
 	```
- 3. Run ``demoCar.m`` and ``demoMotor.m`` to reproduce the results on [Cars and Motorbikes Dataset] (https://sites.google.com/site/graphmatchingmethods/).
+ 3. Run ``demoCar.m`` and ``demoMotor.m`` to reproduce the results on the [Cars and Motorbikes Dataset] (https://sites.google.com/site/graphmatchingmethods/). Run ``demoCharater.m`` to reproduce the results on the [Chinese Character dataset] (http://www.escience.cn/system/file?fileId=62549). 
 
 ### Remarks
 Precompiled mex files for linux x64 are included. For other platforms, you can use any compilier that supports matlab and c++11 to compile the mex files.

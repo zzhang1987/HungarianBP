@@ -1,4 +1,4 @@
-function assign = gmTwoBP(K, Ct, asgT, options)
+function assign = HungarianBP(K, Ct, asgT, options)
 [NofNodes, ~] = size(Ct);
 [~, NofStates] = size(Ct);
 NodeClusters = 0:1:(NofNodes - 1);
