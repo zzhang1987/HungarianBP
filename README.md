@@ -1,7 +1,7 @@
 # HungarianBP: Pairwise Matching through Max-Weight Bipartite Belief Propagation
 
 ### Introduction
-This repository contains the source code of the algorithm described in a [CVPR 2016](http://www.pamitc.org/cvpr16/) paper [Pairwise Matching through Max-Weight Bipartite Belief Propagation](http://zzhang.org/ZhangEtal2016Cvpr.pdf). More details are provided on the [project page] (http://zzhang.org/software/pairwise-matching-through-max-weight-bipartite-belief-propagation/).
+This repository contains the source code of the algorithm described in a [CVPR 2016](http://www.pamitc.org/cvpr16/) paper [Pairwise Matching through Max-Weight Bipartite Belief Propagation](https://zzhang.org/pdfs/ZhangEtal2016Cvpr.pdf). More details are provided on the [project page] (https://zzhang.org/featurematching.html).
 This packages has been tested using Matlab R2015b on CentOS 7.0 (a distrubition of Linux) x64.
 
 ### Citing HungarianBP
